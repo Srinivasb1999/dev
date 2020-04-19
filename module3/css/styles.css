@@ -1,4 +1,54 @@
 body{
 	font-size: 16px;
 	color: black;
+	font-family: 'Oswald', sans-serif;
 }
+
+#header-nav
+{
+	background-color: #666;
+	border-radius: 0;
+  	border: 0;
+}
+.navbar-header{
+	height: 110px;
+}
+.navbar-brand{
+	padding-top:10px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand h1{
+	color:black;
+	text-shadow: 1px 1px 1px #222;
+	font-weight: medium;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
