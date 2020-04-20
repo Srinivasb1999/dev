@@ -38,7 +38,7 @@ body{
 .navbar-brand h1{
 	font-size: 40px;
 	color:black;
-	text-shadow: 1px 1px 1px #222;
+	text-shadow: 1px 1px 1px #aaa;
 	font-weight: medium;
 	padding-left: 20px;
 }
