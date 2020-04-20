@@ -109,6 +109,9 @@ h1.text-center{
   	font-size: 2em;
   }
 
+  .navbar-brand h1{
+  	padding-left: 0px;
+  }
 
 
 
